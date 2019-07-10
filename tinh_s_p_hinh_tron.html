@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh dien tich chu vi hinh tron</title>
+</head>
+<body>
+<script>
+    function tinhDienTich(bankinh) {
+        return bankinh * bankinh * 3.14;
+    }
+
+    function tinhChuVi(bankinh) {
+        return 2 * bankinh * 3.14;
+    }
+
+    let r = Number(prompt('nhap ban kinh'));
+    let s = tinhDienTich(r);
+    let c = tinhChuVi(r);
+    alert('dien tich hinh tron la: ' + s);
+    alert('chu vi hinh tron la: ' + c);
+</script>
+</body>
+</html>

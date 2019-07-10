@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tim ky tu</title>
+</head>
+<body>
+<script>
+    function kiemTra(mang,kyTu) {
+        let count = 0;
+        for(let i = 0; i < mang.length; i++){
+           if (mang[i] == kyTu){
+               count ++;
+           }
+        }
+        if (count != 0) {
+            return count;
+        } else {
+            return -1;
+        }
+    }
+    let demo = ['4','5','8','7','h','u','y','8','7','h','u','y'];
+    let kyTu = prompt('nhap ky tu');
+    alert(kiemTra(demo,kyTu));
+</script>
+</body>
+</html>

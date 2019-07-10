@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh giai thua</title>
+</head>
+<body>
+<script>
+    function tinhGiaiThua(number) {
+        let giaiThua = 1;
+        for(let i = number; i>0; i--){
+            giaiThua*=i;
+        }
+        return giaiThua;
+    }
+    let number = Number(prompt('nhap 1 so'));
+    let giaiThua=tinhGiaiThua(number);
+    alert(giaiThua);
+</script>
+</body>
+</html>

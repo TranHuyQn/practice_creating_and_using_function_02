@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra so nguyen duong</title>
+</head>
+<body>
+<script>
+    function kiemTra(number) {
+        if (number > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    let number = parseInt(prompt('nhap 1 so nguyen'));
+    if (kiemTra(number)){
+        alert(number + ' la so nguyen duong');
+    } else {
+        alert(number + ' khong la so nguyen duong');
+    }
+</script>
+</body>
+</html>
